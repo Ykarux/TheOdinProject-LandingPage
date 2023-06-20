@@ -72,7 +72,7 @@ h1 {
 }
 
 button {
-    padding: 6px 16px;
+    padding: 6px 34px;
     font-size: 16px;
     color: #F9FAF8;
     background-color: #3882F6;
@@ -116,4 +116,77 @@ button {
     text-align: center;
     font-size: 16px;
     flex-shrink: 1;
+}
+
+.block3 {
+    padding: 160px 320px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+blockquote {
+    padding: 0;
+    margin: 0;
+}
+
+blockquote p {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0;
+    margin: 0;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    align-self: end;
+}
+
+.block4 {
+    padding: 120px 175px;
+    background-color: #F9FAF8;
+}
+
+.block4-left h3, .block4-left p {
+    padding: 0;
+    margin: 0;
+}
+
+.block4-left h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.block4-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.block4-main {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 55px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.block4-main button {
+    padding: 6px 34px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 38px;
+    padding-bottom: 38px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 20px;
 }
